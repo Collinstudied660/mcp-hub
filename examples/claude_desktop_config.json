@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_weather"]
+    },
+    "web-search": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_web_search"]
+    },
+    "crypto": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_crypto"]
+    },
+    "system": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_system"]
+    },
+    "csv": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_csv"]
+    },
+    "http": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_http"]
+    },
+    "notes": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_notes"]
+    },
+    "reminder": {
+      "command": "python",
+      "args": ["-m", "mcp_hub.server_reminder"]
+    }
+  }
+}

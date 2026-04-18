@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-hub"
+version = "0.1.0"
+description = "🚀 A curated collection of production-ready MCP servers. Plug-and-play tools for Claude, Cursor, Windsurf & more."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "4Artursmith"}
+]
+keywords = ["mcp", "model-context-protocol", "claude", "ai", "agents", "tools", "servers"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.optional-dependencies]
+full = [
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "pydantic>=2.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/4Artursmith/mcp-hub"
+Repository = "https://github.com/4Artursmith/mcp-hub"
+Issues = "https://github.com/4Artursmith/mcp-hub/issues"
+
+[tool.setuptools.packages.find]
+include = ["mcp_hub*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
